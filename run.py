@@ -25,7 +25,7 @@ def split_pdf(input_pdf_path, output_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python split_pdf.py <input_pdf_path> [output_directory]")
+        print("Usage: python splitpdf.py <input_pdf_path> [output_directory]")
     else:
         input_pdf = sys.argv[1]
         output_directory = sys.argv[2] if len(sys.argv) > 2 else "output"
